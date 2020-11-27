@@ -3,6 +3,9 @@
 // summary:
 //   Driver receives data via SPI and ouputs data to TLC5940 one layer at a time.
 //   Added animation state while waiting for data.
+// todo:
+//   Brightness could be increased slightly by using DC as the driver for the top bits (assuming dc data and gs data can be clocked in on one latch).
+//   Gamma correction does not adjust brightness across RGB value mixing.
 // references:
 //   https://www.pjrc.com/store/teensy32.html
 //-----------------------------------------------------------------------
