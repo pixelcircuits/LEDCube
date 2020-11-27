@@ -1,0 +1,57 @@
+======
+
+0- B16
+1- B17
+2- D0
+3- A12
+4- A13
+5- D7
+6- D4
+7- D2
+8- D3
+9- C3
+10- C4
+11- C6
+12- C7
+13- C5
+14- D1
+15- C0
+16- B0
+17- B1
+18- B3
+19- B2
+20- D5
+21- D6
+22- C1
+23- C2
+
+=============
+
+3- A12 [LED_VPRG] gray
+4- A13 [LED_DCPRG] brown
+
+16- B0 [LAYER_4]
+17- B1 [LAYER_5]
+19- B2 [LAYER_6]
+18- B3 [LAYER_7]
+0-  B16 [LAYER_8]
+1-  B17 [LAYER_9]
+
+15- C0 [LAYER_0]
+22- C1 [LAYER_1]
+23- C2 [LAYER_2]
+9-  C3 [LAYER_3]
+10- C4 [SPI_CS]
+13- C5 [SPI_CLK]
+11- C6 [SPI_MOSI]
+12- C7 [SPI_MISO]
+
+2-  D0 [LED_RED] red
+14- D1 [LED_GREEN] gren
+7-  D2 [LED_BLUE] blue
+8-  D3 [LED_CLK] white
+6-  D4 [LED_XLAT] yellow
+20- D5 [LED_GSCLK] purple
+21- D6 [LED_BLANK] orange
+5-  D7
+
