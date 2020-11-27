@@ -3,6 +3,7 @@
 // summary:
 //   SPI data is received in the SPI peripheral buffer and is read periodically via a timer interrupt.
 //   DMA is not an option since the LED data outputting uses up the full peripheral data bus (to be as fast as possible).
+//   SPI output pin should be connected to CS so the driver can clear itself.
 // references:
 //   https://www.pjrc.com/teensy/K20P64M72SF1RM.pdf
 //-----------------------------------------------------------------------
